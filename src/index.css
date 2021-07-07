@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Agency FB';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(221, 221, 221);
+  font-weight: bold;
+  font-size: 30px;
+  box-sizing: border-box;
+}
+
+

@@ -1,0 +1,13 @@
+.matchrankings{
+    height: 1080px;
+    width: 1920px;
+}
+.tables{
+    position: absolute;
+    top: 282px;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    padding: 66px;
+    justify-content: space-between;
+}

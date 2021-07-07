@@ -1,0 +1,62 @@
+.main_box {
+  height: 760px;
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+}
+.main_box_upper {
+  width: 100%;
+  height: 355px;
+  overflow: hidden;
+  display: flex;
+  padding-right: 20px;
+  justify-content: space-between;
+}
+
+.team_image_box {
+  background-image: linear-gradient(
+    0deg,
+    rgba(232, 232, 232, 0.99608) 0%,
+    rgb(210, 210, 210) 100%
+  );
+  width: 108px;
+  height: 108px;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.player_name {
+  background-image: linear-gradient(
+    0deg,
+    rgb(54, 1, 161) 0%,
+    rgb(107, 52, 219) 100%
+  );
+
+  top: 621px;
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 52px;
+}
+
+.info {
+  background-color: rgba(0, 0, 0, 0.502);
+  width: 100%;
+  height: 296px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.infoheader {
+    font-size: 48px;
+    color: rgb(255, 186, 0);
+    
+    text-align: center;
+}
+.infoData{
+  font-size: 75px;
+  text-align: center;
+}
