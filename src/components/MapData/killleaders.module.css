@@ -1,0 +1,23 @@
+.killleaders{
+    width: 432px;
+    height: 1080px;
+    border-left: 4px solid rgb(255, 186, 0);
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    height: 109px;
+    font-size: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:rgb(255, 186, 0);
+
+}
+.player_list{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}

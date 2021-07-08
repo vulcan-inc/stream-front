@@ -3,7 +3,6 @@ import { storageUrl } from '../../env'
 import styles from './PlayerBox.module.css'
 
 const PlayerBox = (props) => {
-    console.log(props.player);
         return (
         <div className={styles.main_box}>
             <div className={styles.main_box_upper}>

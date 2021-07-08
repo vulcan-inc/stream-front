@@ -2,7 +2,6 @@ import Axios from "../modules/Axios";
 import placementPoints from "./placementPoints";
 
 export default async function () {
-  console.clear();
   let response = await Axios.get("/overalldetails");
   let teams = response.data
 
@@ -51,8 +50,8 @@ export default async function () {
     // check position
     if (a.final.position > b.final.position) return 1;
     if (a.final.position < b.final.position) return -1;
+    
     return 0;  
   });
-  console.log(teams);
   return teams
 }

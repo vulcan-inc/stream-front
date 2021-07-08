@@ -1,0 +1,88 @@
+.player_box{
+    background: rgba(0, 0, 0,0.502);
+    width: 428px;
+    height: 193px;
+    display: flex;
+    flex-direction: column;
+}
+.player_box_top{
+    height: 100%;
+    padding: 5px;
+    display: grid;
+    height: 143px;
+    overflow: hidden;
+    grid-template-columns: 90px 110px auto ;
+    gap : 60px
+}
+.player_box_bottom {
+    background: linear-gradient( 0deg, rgb(54,1,161) 0%, rgb(107,52,219) 100%);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .player_rank{
+    color:rgb(255, 186, 0);
+    font-size: 40px;
+
+  }
+  .player_team_box {
+    background: linear-gradient( 0deg, rgba(232,232,232,0.99608) 0%, rgb(210,210,210) 100%);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+  .player_rank_and_team{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 133px;
+  }
+  .player_kills_box{
+      text-align: center;
+      height: 133px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+  }
+.player_kills_header{
+    font-size: 37.5px;
+    color: rgb(255, 186, 0);
+
+}
+.player_kills{
+    font-size: 62.5px;
+}
+  .KILLS {
+    font-size: 75px;
+    font-family: "Agency FB";
+    color: rgb(255, 186, 0);
+    line-height: 6.481;
+    -moz-transform: scale(0.49, 0.49);
+    -webkit-transform: scale(0.49, 0.49);
+    -ms-transform: scale(0.49, 0.49);
+    position: absolute;
+    left: 1791.888px;
+    top: 410.66px;
+    z-index: 76;
+  }
+  ._47 {
+    font-size: 125px;
+    font-family: "Agency FB";
+    color: rgb(220, 220, 220);
+    font-weight: bold;
+    line-height: 3.889;
+    -moz-transform: scale(0.49, 0.49);
+    -webkit-transform: scale(0.49, 0.49);
+    -ms-transform: scale(0.49, 0.49);
+    position: absolute;
+    left: 1793.563px;
+    top: 484.028px;
+    z-index: 77;
+  }
+    

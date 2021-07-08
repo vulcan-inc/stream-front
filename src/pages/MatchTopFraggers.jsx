@@ -26,7 +26,7 @@ const MatchTopFraggers = (props) => {
             justifyContent :'space-between'
         }}>
             {players.slice(0,4).map(player=>(
-                <PlayerBox player={player}></PlayerBox>
+                <PlayerBox key={player.id} player={player}></PlayerBox>
                 ))}
         </div>
       </div>

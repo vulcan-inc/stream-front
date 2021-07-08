@@ -6,7 +6,6 @@ const MatchRankings = () => {
     const [matchResults, setMatchResults] = useState([])
     useEffect(() => {
         getMatchResults().then(result =>{
-            console.log(result)
             setMatchResults(result)
         })
     }, [])

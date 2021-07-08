@@ -1,0 +1,45 @@
+.teamgraph{
+    height: 750px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 132px;
+}
+
+.team_image_box{
+    background: linear-gradient( 0deg, rgba(232,232,232) 0%, rgb(210,210,210) 100%);
+    width: 132px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.bars{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.placementbar{
+    background: linear-gradient( 0deg, rgb(54,1,161) 0%, rgb(107,52,219) 100%);
+    width: 54px;
+
+}
+
+.killsbar{
+    background: rgb(255, 186, 0);
+    width: 54px;
+}
+.killsbarwrapper,
+.placementbarwrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 100%;
+}
+.bar_info{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+}

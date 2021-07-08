@@ -1,0 +1,61 @@
+.playerCard{
+    display: flex;
+    width: 874px;
+}
+
+.rank{
+    font-size: 70px;
+    color: rgb(255, 186, 0);
+
+    background-color: rgba(0, 0, 0 , 0.502);
+    width: 135px;
+    height: 127px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.team_image_box{
+   background : linear-gradient( 0deg, rgba(232,232,232,0.99608) 0%, rgb(210,210,210) 100%);
+   width: 135px;
+   height: 127px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.player_info{
+    background-image: linear-gradient( 0deg, rgb(54,1,161) 0%, rgb(107,52,219) 100%);
+    width: 469px;
+    height: 127px;
+    overflow-y: hidden;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 117px auto;
+ 
+}
+.kills {
+    font-size: 70px;
+    background-color: rgba(0, 0, 0 , 0.502);
+    color: #e8e8e8;
+    width: 135px;
+    height: 127px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.player_image {
+    width: 117px;
+}
+.player_name {
+    font-size: 50px;
+    justify-content: end;
+    display: flex;
+    height: 127px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+
+  
+  
+

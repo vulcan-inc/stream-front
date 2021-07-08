@@ -3,7 +3,6 @@ import placementPoints from "./placementPoints";
 
 
 export default async function () {
-  console.clear();
   let response = await Axios.get("/matchdetails");
   let { details, groups } = response.data;
 

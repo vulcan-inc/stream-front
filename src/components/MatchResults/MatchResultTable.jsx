@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './matchResultTable.module.css'
 import MatchResultTableRow from './MatchResultTableRow'
 const MatchResultTable = (props) => {
-    console.log(props.results.slice(props.from - 1 , props.to))
     return (
         <div className={styles.table}>
             <div className={styles.tableHead}>
@@ -19,7 +18,7 @@ const MatchResultTable = (props) => {
 
             <div className={styles.tableBody}>
                 {props.results.slice(props.from - 1 , props.to).map((result , index) =>(
-                    <MatchResultTableRow result={result} rank={index + props.from }>
+                    <MatchResultTableRow key={result.id} result={result} rank={index + props.from }>
                     </MatchResultTableRow>))
                 }
             </div>
