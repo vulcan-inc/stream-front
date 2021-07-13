@@ -3,12 +3,14 @@ import getMatchResults from "./getMatchResults";
 export default async function(){
     let teams = await getMatchResults()
     let players = []
-    teams.forEach(team=>{
-        team.playerdetail.forEach(playerdetail=>{
-            playerdetail.playerdetail.contribution = parseFloat(((playerdetail.playerdetail.kills/team.final.kills)*100).toFixed(2))
-            playerdetail.teamimage = team.image
-            players.push(playerdetail)
-        })
+    teams.forEach(team => {
+        if (team.playerdetail) {
+            team.playerdetail.forEach(playerdetail=>{
+                playerdetail.playerdetail.contribution = parseFloat(((playerdetail.playerdetail.kills/team.final.kills)*100).toFixed(2))
+                playerdetail.teamimage = team.image
+                players.push(playerdetail)
+            })
+        }
     })
 
     players.sort(
