@@ -13,8 +13,8 @@ const OverallResultTable = (props) => {
             </div>
 
             <div className={styles.tableBody}>
-                {props.results.slice((props.index-1)*9 ,(props.index)*9 ).map((result, i)=>(
-                    <OverallResultTableRow key={result.id} result={result} rank={i+1+(props.index-1)*9}></OverallResultTableRow>
+                {props.results.slice((props.index-1)*6 ,(props.index)*6 ).map((result, i)=>(
+                    <OverallResultTableRow key={result.id} result={result} rank={i+1+(props.index-1)*6}></OverallResultTableRow>
                 ))}
             </div>
         </div>

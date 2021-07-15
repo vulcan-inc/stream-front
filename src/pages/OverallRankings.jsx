@@ -15,7 +15,7 @@ const OverallRankings = (props) => {
         <div style={{
             width:'1920px',
             height:'1080px',
-            paddingTop:'190px',
+            paddingTop:'250px',
         }}>
             <OverallResultTable results={results} index={props.index}></OverallResultTable>
         </div>
