@@ -1,19 +1,19 @@
 .teamcard{
-    height: 53px;
+    height: 70px;
     display: flex;
 }
 .rank {
     background-color: rgba(0, 0, 0,0.502);
     width: 50px;
-    height: 53px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 .team_image_box {
     background: linear-gradient( 0deg, rgba(232,232,232,0.99608) 0%, rgb(210,210,210) 100%);
-    width: 53px;
-    height: 53px;
+    width: 70px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -22,11 +22,15 @@
 .team_info {
     background-color: rgba(0, 0, 0,0.502);
     width: 325px;
-    height: 53px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    font-size: 35px;
+  }
+  .team_info>*{
+      font-size: 33px;
   }
 .team_rank {
     width: 35px;
