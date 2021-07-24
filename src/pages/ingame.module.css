@@ -1,0 +1,46 @@
+
+.team_wrapper > *{
+    font-size: 20px;
+}
+.team_wrapper{
+    width : 1260px;
+    margin: auto;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.teamcard {
+    height: 100%;
+    display: flex;
+    width: 305px;
+    transition: all 1s ease-in;
+}
+.team_info{
+    width: 233px;
+    text-align: center;
+}
+.team_info_name{
+    background: linear-gradient( 0deg, rgb(54,1,161) 0%, rgb(107,52,219) 100%);
+    width: 100%;
+}
+.rankandtotal {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0,0.502);
+
+}
+.team_image_box {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient( 0deg, rgba(232,232,232,0.99608) 0%, rgb(210,210,210) 100%);
+
+}
